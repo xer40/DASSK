@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Secrets
+.env
+server/.env
+
+# IDE / System files
+.DS_Store
+dist/
