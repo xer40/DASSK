@@ -19,7 +19,7 @@ const pool = new Pool({
 
 // 2. Add a simple test route to check if the backend works
 app.get('/', (req, res) => {
-  res.send('🚀 Node.js backend is running successfully!');
+  res.send(' Node.js backend is running successfully!');
 });
 
 // 3. Add a database test route for your React app
